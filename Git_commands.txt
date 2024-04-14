@@ -10,5 +10,8 @@ git branch -D test - удаление ветки "test"
 git commit -m "описание" - закрепление именённых файлов в Git. В кавычках кратко описать тему изменений.
 git merge readme - синхронизация веток. если находиться в ветке "master" то синхронизируемся с веткой "readme" и наоборот.
 Важно точно знать в какой ветке находишься.
-git config --global user.name - регистрация на GitHub. Будет использоваться то имя, которое указано в git(Shabunin Stanislav)
+git config --global user.name - регистрация на GitHub. Будет использоваться то имя, которое указано в git(Shabunin Stanislav) 
+и проверка тех данных, которые уже зарегистрированы.
 git config --global user.name "lossanstas" - редактирование имени пользователя в GitHub
+git config --global user.email - проверка зарегистрированного адреса электронной почты.
+git config --global user.email "abc@def.com" - изменение зарегистрированного адреса или регистрация адреса электронной почты.
