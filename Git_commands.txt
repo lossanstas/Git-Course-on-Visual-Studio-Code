@@ -21,3 +21,5 @@ git remote add origin git@github.com:lossanstas/Git-Course-on-Visual-Studio-Code
 git branch -M main - переименование головной ветки "master" в "main"
 git push -u origin main - синхронизация репозиториев на локальном компьютере с дистанционным сервером на GitHub ветку "main"
 git push - просто в таком виде команда заливает все изменения с локального на дистанционный сервер.
+git clone <скопированный адрес из Github-Code-HTTPS> - копирование или клонирование различных репозиториев на локальном сервере. 
+В GitHub по вкладке <>Code/ Зелёная кнопка Code HTTPS - по ссылке либо скачать ZIP.
