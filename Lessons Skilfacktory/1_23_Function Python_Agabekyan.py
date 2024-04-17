@@ -17,3 +17,5 @@ print(result)
 
 operation = mult
 print(operation(5,6))
+
+25:00
