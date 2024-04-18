@@ -34,6 +34,7 @@ def facterial(x):
 print(facterial(4))
 
 45:00
+1:11:00
 
 
 
