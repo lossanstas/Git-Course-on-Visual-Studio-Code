@@ -62,16 +62,24 @@
 # my_func()
 
 # Как быть, если функция должна получить данные и их обработать? (на базе кода №2)
-def my_decor(func):
-    def wrapper():
-        print('start')
-        func()
-        print('end')
-    return wrapper
-@my_decor     # Первое изменение. Название декоратора.
-def my_func():
-    print('Тут основная функция')
-my_func()
+# def my_decor(func):
+#     def wrapper():
+#         print('start')
+#         func()
+#         print('end')
+#     return wrapper
+# @my_decor     # Первое изменение. Название декоратора.
+# def my_func():
+#     print('Тут основная функция')
+# my_func()
 
+# # Функция, которая выводит сумму чисел.
+# def sum(*numbers):
+#     res = 0
+#     for i in numbers:
+#         res += i
+#     print(f'sum = {res}')
+# sum(1, 2, 3)
+# sum (2, 4, 6, 8)
 
 
