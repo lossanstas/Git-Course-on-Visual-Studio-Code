@@ -95,8 +95,8 @@
 # my_func(5, 10)
 
 # 3. Возвращение результата
-# def my_func(a, b):
-#     result = a + b
-#     return result
-# c = my_func(5, 10)
-# print(c)
+def my_func(a, b):
+    result = a + b
+    return result
+c = my_func(5, 10)
+print(c)
