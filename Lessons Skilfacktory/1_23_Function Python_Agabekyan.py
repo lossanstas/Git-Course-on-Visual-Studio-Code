@@ -82,3 +82,21 @@
 # sum(1, 2, 3)
 # sum (2, 4, 6, 8)
 
+# 1. Стаимческий вариант
+# def my_func():
+#     a = 1
+#     b = 2
+#     print(a + b)
+# my_func()
+
+# 2. Динамический вариант
+# def my_func(a, b):
+#     print(a + b)
+# my_func(5, 10)
+
+# 3. Возвращение результата
+# def my_func(a, b):
+#     result = a + b
+#     return result
+# c = my_func(5, 10)
+# print(c)
