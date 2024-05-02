@@ -82,7 +82,7 @@
 # sum(1, 2, 3)
 # sum (2, 4, 6, 8)
 
-# 1. Стаимческий вариант
+# 1. Статический вариант
 # def my_func():
 #     a = 1
 #     b = 2
@@ -95,8 +95,11 @@
 # my_func(5, 10)
 
 # 3. Возвращение результата
-def my_func(a, b):
-    result = a + b
-    return result
-c = my_func(5, 10)
-print(c)
+# def my_func(a, b):
+#     result = a + b
+#     return result
+# c = my_func(5, 10)
+# print(c)
+
+
+# 15_26 Вэбинар 13.12.2023 21:44

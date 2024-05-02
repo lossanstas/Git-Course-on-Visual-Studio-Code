@@ -82,3 +82,11 @@
 #     result = (f'Объём: {m / p} м.куб.')
 # print(result)
 
+# Задача. Посчитать количество повторений слова "True" в списке.
+def count_true(my_list):
+    count = 0
+    for i in my_list:
+        if i:
+            count += 1
+    return count
+print(count_true([True, False, True, True, False, False]))
