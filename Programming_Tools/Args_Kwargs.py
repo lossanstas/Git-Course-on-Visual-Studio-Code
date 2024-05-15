@@ -6,13 +6,13 @@
 #     print(abc[2])
 # fun('Pithon', 'C++', 'Jumla')
 
-def func(*args):
-    result = 0
-    for item in args:
-        result += item
-    return result
-num = (1, 2, 3, 4, 5)
-print(func(*num))
+# def func(*args):
+#     result = 0
+#     for item in args:
+#         result += item
+#     return result
+# num = (1, 2, 3, 4, 5)
+# print(func(*num))
 
 
 # def fun(**dict):
@@ -32,3 +32,4 @@ print(func(*num))
 #         result += i
 #     print(f'sum: {result}')
 # my_sum(10, 10, 8, 8, 6, 6, 4, 4, 2, 2)
+
